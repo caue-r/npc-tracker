@@ -39,10 +39,14 @@ function renderDetails(npc) {
   const notesMarkup = npc.notes
     .map((note) => `<li>${note}</li>`)
     .join("");
+  const portraitMarkup = npc.image
+    ? `<div class="lore-portrait-card"><img class="npc-portrait" src="${npc.image}" alt="Retrato de ${npc.name}"></div>`
+    : "";
 
   panel.innerHTML = `
     <p class="panel-kicker">Crônica</p>
     <h2>${npc.name}</h2>
+    ${portraitMarkup}
     <p><strong>Nome:</strong> ${npc.name}</p>
     <p><strong>Raça:</strong> ${npc.title}</p>
     <p><strong>Localização Conhecida:</strong> ${npc.location}</p>

@@ -267,16 +267,23 @@ body {
   line-height: 1.45;
 }
 
-.lore-panel .npc-portrait {
-  display: block;
-  width: min(240px, 100%);
-  aspect-ratio: 4 / 5;
-  object-fit: cover;
-  object-position: center top;
+.lore-panel .lore-portrait-card {
+  width: min(280px, 100%);
+  height: min(280px, 70vw);
   border: 2px solid #6b4e30;
   border-radius: 10px;
+  overflow: hidden;
   margin-top: 12px;
+  background: linear-gradient(180deg, #efe0bf, #d6bb8e);
   box-shadow: 0 8px 14px rgba(35, 20, 11, 0.25);
+}
+
+.lore-panel .npc-portrait {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
 }
 
 .lore-panel .hint {
