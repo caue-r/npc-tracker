@@ -34,6 +34,32 @@ const npcs = [
 
 const grid = document.getElementById("npcGrid");
 const panel = document.getElementById("detailsPanel");
+const themeToggle = document.getElementById("themeToggle");
+
+function setTheme(theme) {
+  document.body.setAttribute("data-theme", theme);
+  if (!themeToggle) return;
+  themeToggle.textContent = theme === "dark" ? "Tema claro" : "Tema escuro";
+  themeToggle.setAttribute("aria-pressed", String(theme === "dark"));
+}
+
+function getInitialTheme() {
+  const storedTheme = localStorage.getItem("npc-theme");
+  if (storedTheme === "light" || storedTheme === "dark") return storedTheme;
+  return "light";
+}
+
+const initialTheme = getInitialTheme();
+setTheme(initialTheme);
+
+if (themeToggle) {
+  themeToggle.addEventListener("click", () => {
+    const currentTheme = document.body.getAttribute("data-theme") || "light";
+    const nextTheme = currentTheme === "dark" ? "light" : "dark";
+    setTheme(nextTheme);
+    localStorage.setItem("npc-theme", nextTheme);
+  });
+}
 
 function renderDetails(npc) {
   const notesMarkup = npc.notes
