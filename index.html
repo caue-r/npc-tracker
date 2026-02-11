@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NPC Tracker - Phandalin</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Cardo:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="tableau">
+    <header class="top-banner">
+      <p class="small">Livro de Campo</p>
+      <h1>Rastreador de NPCs</h1>
+      <p class="small">Dungeons &amp; Bagres</p>
+    </header>
+
+    <section class="board">
+      <div class="npc-grid" id="npcGrid" aria-label="Lista de NPCs"></div>
+
+      <aside class="lore-panel" id="detailsPanel" aria-live="polite">
+        <p class="panel-kicker">Crônica</p>
+        <h2>Selecione um NPC</h2>
+        <p>Clique em um quadrado ativo para abrir os detalhes do personagem.</p>
+        <p class="hint">Os espaços selados são slots para NPCs que ainda não foram registrados.</p>
+      </aside>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
