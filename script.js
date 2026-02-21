@@ -4,27 +4,38 @@ const npcs = [
     name: "Gundren Busca-pedra",
     title: "Anão",
     image: "Personagens/Gundren.png",
-    location: "A caminho de Phandalin (partiu à frente do grupo)",
+    location: "Desaparecido / Presumivelmente capturado (rastros levaram até o Esconderijo Dente Fino)",
     notes: [
       "A Missão: Contratou o grupo em Neverwinter para escoltar uma carroça com suprimentos de mineração e provisões até a cidade de Fandalin. O destino da entrega é a loja \"Provisões Barthen\".",
       "Pagamento: Prometeu 10 peças de ouro para cada membro do grupo após a entrega segura da carga.",
       "Família: Pertence a uma família de mineradores e mencionou ter outros dois irmãos.",
       "Atitude: Estava visivelmente entusiasmado e um pouco reservado, afirmando que ele e os irmãos encontraram \"algo grande\" recentemente.",
-      "Status Atual: Partiu a cavalo antes da carroça para \"cuidar dos negócios\" na cidade, acompanhado por uma escolta, um guerreiro chamado Sildar Invernalia."
+      "A Emboscada: Gundren e sua escolta, Sildar Invernália, foram emboscados na Trilha Trijavali por goblins. Seus cavalos foram encontrados mortos e saqueados.",
+      "Status Atual: Desaparecido. Os rastros no local da emboscada indicavam que dois corpos foram arrastados para dentro da floresta, levando o grupo até o atual Esconderijo Boca Escarpada. O paradeiro exato de Gundren e Sildar ainda é desconhecido."
     ]
   },
   {
     id: "sildar",
     name: "Sildar Invernalia",
     title: "Humano",
-    location: "A caminho de Phandalin (partiu à frente do grupo)",
+    location: "Desaparecido/Capturado (rastros levaram até a entrada do esconderijo)",
     notes: [
-      "É um guerreiro humano que viajava junto de Gundren.",
-      "Foi citado como escolta de confiança durante a missão da carroça.",
-      "Ainda não se tem muitas informações sobre seu passado ou objetivos."
+      "O Papel: É um guerreiro humano que viajava a cavalo junto de Gundren, partindo à frente da carroça do grupo. Foi citado como a escolta de confiança do anão para cuidar dos negócios na cidade.",
+      "A Emboscada: Sildar e Gundren foram emboscados na Trilha Trijavali por goblins. O cavalo de Sildar foi encontrado morto e saqueado na beira da estrada, junto ao cavalo de Gundren.",
+      "Status Atual: Desaparecido/Capturado. Rastros no local da emboscada indicaram que dois corpos de tamanho humano (ele e Gundren) foram arrastados para dentro da floresta, levando o grupo até a entrada do esconderijo."
     ]
   },
-  { id: "slot-3", empty: true },
+  {
+    id: "goblin-estranho",
+    name: "Goblin Estranho",
+    title: "Goblin",
+    image: "Personagens/GoblinEstranho.webp",
+    location: "Arredores do local de emboscada, na Trilha Trijavali",
+    notes: [
+      "Não parece pertencer ao grupo dos goblins Dente Fino",
+      "Status Atual: Paradeiro incerto."
+    ]
+  },
   { id: "slot-4", empty: true },
   { id: "slot-5", empty: true },
   { id: "slot-6", empty: true },
