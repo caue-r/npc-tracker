@@ -32,8 +32,8 @@ const npcs = [
     image: "Personagens/GoblinEstranho.webp",
     location: "Diversas",
     notes: [
-      "Não parece pertencer ao grupo dos goblins Dente Fino",
-      "Parece ser mais inteligente que outros goblins",
+      "Não parece pertencer ao grupo dos goblins Dente Fino.",
+      "Parece ser mais inteligente que outros goblins.",
       "Status Atual: Paradeiro incerto."
     ]
   },
