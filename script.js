@@ -4,25 +4,25 @@ const npcs = [
     name: "Gundren Busca-pedra",
     title: "Anão",
     image: "Personagens/Gundren.png",
-    location: "Desaparecido / Presumivelmente capturado (rastros levaram até o Esconderijo Dente Fino)",
+    location: "Castelo Dente Fino",
     notes: [
-      "A Missão: Contratou o grupo em Neverwinter para escoltar uma carroça com suprimentos de mineração e provisões até a cidade de Fandalin. O destino da entrega é a loja \"Provisões Barthen\".",
-      "Pagamento: Prometeu 10 peças de ouro para cada membro do grupo após a entrega segura da carga.",
-      "Família: Pertence a uma família de mineradores e mencionou ter outros dois irmãos.",
-      "Atitude: Estava visivelmente entusiasmado e um pouco reservado, afirmando que ele e os irmãos encontraram \"algo grande\" recentemente.",
-      "A Emboscada: Gundren e sua escolta, Sildar Invernália, foram emboscados na Trilha Trijavali por goblins. Seus cavalos foram encontrados mortos e saqueados.",
-      "Status Atual: Desaparecido. Os rastros no local da emboscada indicavam que dois corpos foram arrastados para dentro da floresta, levando o grupo até o atual Esconderijo Boca Escarpada. O paradeiro exato de Gundren e Sildar ainda é desconhecido."
+      "O Grande Segredo Revelado: Sildar contou ao grupo que Gundren e seus irmãos (Tharden e Nundro) descobriram a entrada para a lendária Caverna das Ondas Trovejantes, o local perdido da antiga Forja da Magia e do Pacto Fandelver.",
+      "A Emboscada e \"A Aranha\": Gundren não foi capturado por acaso. Os goblins receberam ordens específicas de uma figura misteriosa conhecida apenas como \"A Aranha\" para capturar o anão e confiscar seus pertences.",
+      "O Mapa Roubado: Gundren carregava um mapa com a localização exata e secreta da caverna. Os goblins roubaram esse mapa durante a emboscada na estrada.",
+      "Status Atual: Desaparecido. Sildar ouviu que os goblins o levaram para o Castelo Dente Fino.",
+      "Família: Pertence a uma família de mineradores e mencionou ter outros dois irmãos, de localizações, também, desconhecidas."
     ]
   },
   {
     id: "sildar",
     name: "Sildar Invernalia",
     title: "Humano",
-    location: "Desaparecido/Capturado (rastros levaram até a entrada do esconderijo)",
+    image: "Personagens/Sildar.png",
+    location: "Salão do Chefe Municipal",
     notes: [
-      "O Papel: É um guerreiro humano que viajava a cavalo junto de Gundren, partindo à frente da carroça do grupo. Foi citado como a escolta de confiança do anão para cuidar dos negócios na cidade.",
-      "A Emboscada: Sildar e Gundren foram emboscados na Trilha Trijavali por goblins. O cavalo de Sildar foi encontrado morto e saqueado na beira da estrada, junto ao cavalo de Gundren.",
-      "Status Atual: Desaparecido/Capturado. Rastros no local da emboscada indicaram que dois corpos de tamanho humano (ele e Gundren) foram arrastados para dentro da floresta, levando o grupo até a entrada do esconderijo."
+      "Resgate e Pagamento: Foi resgatado do Esconderijo Dente Fino e escoltado até Phandalin. Ele prometeu pagar 50 peças de ouro ao grupo pela escolta, valor que ele adquire através de um empréstimo um dia após chegar à cidade.",
+      "A Busca por Iarno Albrek: Sildar é um agente da Aliança dos Lordes e veio a Phandalin especificamente para investigar o desaparecimento de seu contato e colega de facção, o mago humano Iarno Albrek.",
+      "Resgate de Gundren: Sildar também quer encontrar a mina perdida e ajudar os irmãos Busca-pedra."
     ]
   },
   {
@@ -30,14 +30,33 @@ const npcs = [
     name: "Goblin Estranho",
     title: "Goblin",
     image: "Personagens/GoblinEstranho.webp",
-    location: "Arredores do local de emboscada, na Trilha Trijavali",
+    location: "Diversas",
     notes: [
       "Não parece pertencer ao grupo dos goblins Dente Fino",
+      "Parece ser mais inteligente que outros goblins",
       "Status Atual: Paradeiro incerto."
     ]
   },
-  { id: "slot-4", empty: true },
-  { id: "slot-5", empty: true },
+  {
+    id: "iarno-albrek",
+    name: "Iarno Albrek",
+    title: "Humano",
+    location: "Desaparecido",
+    notes: [
+      "A Ordem: É um mago e colega de Sildar Invernália, sendo também um membro da ordem conhecida como Aliança dos Lordes."
+    ]
+  },
+  {
+    id: "a-aranha",
+    name: "A Aranha",
+    title: "Desconhecido",
+    location: "Desconhecida",
+    notes: [
+      "Tipo/Identidade: Desconhecido.",
+      "Raça: Desconhecida.",
+      "Mandante: É a figura misteriosa por trás da emboscada na Trilha Trijavali. Pagou e deu ordens diretas aos goblins Dente Fino para capturarem Gundren e roubarem tudo o que ele carregava."
+    ]
+  },
   { id: "slot-6", empty: true },
   { id: "slot-7", empty: true },
   { id: "slot-8", empty: true }
