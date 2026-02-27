@@ -57,7 +57,19 @@ const npcs = [
       "Mandante: É a figura misteriosa por trás da emboscada na Trilha Trijavali. Pagou e deu ordens diretas aos goblins Dente Fino para capturarem Gundren e roubarem tudo o que ele carregava."
     ]
   },
-  { id: "slot-6", empty: true },
+  {
+    id: "gwyn-cantaferro",
+    name: "Gwyn Cantaferro",
+    title: "Anã",
+    image: "Personagens/Gwyn.png",
+    location: "Phandalin (frequentemente na Pousada Colina Rochosa).",
+    notes: [
+      "A Viagem: É uma acólita e estudiosa vinda da cidade de Neverwinter. Ela viajou para Phandalin com o objetivo de fazer pesquisas de campo sobre a região e estudar os segredos do antigo Pacto de Fandelver (conforme seu pedido). Além disso, ela veio passar um tempo com sua irmã, Elsa, que trabalha na Pousada Colina Rochosa.",
+      "Conexão com o Grupo: É colega de estudos e conhecida de longa data do personagem Kael.",
+      "A Ameaça Goblin: Gwyn é especialista na história dos antigos impérios anões, mas também é fascinada pela cultura e história dos goblins. Atualmente, ela está investigando e registrando as aparições dos goblins \"estranhos\" que estão vandalizando a cidade. Ela pediu que os personagens tragam qualquer pista que encontrarem para que ela possa ajudar a investigar os crimes.",
+      "Apoio Acadêmico: Ela é uma aliada extremamente valiosa e compartilha livremente seu conhecimento, embora tenha uma certa tendência a divagar quando começa a falar de história."
+    ]
+  },
   { id: "slot-7", empty: true },
   { id: "slot-8", empty: true }
 ];
